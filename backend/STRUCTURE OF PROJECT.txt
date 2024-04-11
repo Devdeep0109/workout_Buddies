@@ -1,0 +1,29 @@
+1.
+set up of express
+make a basic get route
+make a middleware to show path
+
+2.
+API we have to make:
+GET - /workouts ==> get all workout document
+POST - /workouts ==> creates all new workout document
+GET - /workouts/:id ==> gets a single workout document
+DELETE - /workouts/:id ==> Deletes  a single workouts
+PATCH -  /workouts/:id ==> Updates  a single workout
+
+make a route folder 
+inside make workouts.js file which contains all workouts routes.......
+
+3.
+connecting to DAtabase(MongoDB)
+
+4.
+making schema and model for database
+make a folder models inside workouts.js
+
+5.
+making some routes function
+
+6.
+making controller folder
+inside that mowrkoutsController.js file to handle particular route

@@ -1,0 +1,40 @@
+8.
+make folder frontend
+Install react
+Import react-router-dom
+wrap BrowerRoutes to "app" in App.just
+make a page Home and render in app using routes
+then make a component folder
+inside make a navbar and Link to home using component called "Link" in router-dom
+Add css in index.js
+
+9.
+fetching data from backend using useEffect...
+make useEffect in home.js field
+add proxy in package.js file  (On;ly for begineer later use cors).
+make a file workoutdetails in component folder nd import in home.js 
+
+10.
+make a workoutForm inside components to create a form for user to give input.
+Inside workout form we also convert object to json file and check for error.
+
+11.
+now on adding new data it doesnot get rerender byself , we have to do it correctly so 
+as adding new data gets re render automatically.
+So we use "Use context"
+
+new folder context
+new file WorkoutContext.js
+then make a useReducder to set state and dispatch objects
+then make a folder hooks
+inside make useWorkoutsContext to call the WorkoutContext
+import WorkoutContext in Home and make object "workouts ,payload" to use dispatch objects in SET_WORKOUTS.
+
+solve the prob of refreshing to get newly added data..........!!
+import hook ->useWorkoutsContext in workoutForm
+
+
+12.
+Delete a workout and delete in database also.
+
+create a button in workoutDetails 
